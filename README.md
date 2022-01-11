@@ -1,3 +1,4 @@
+# Ollivander's Wand Shop
 Welcome to **Ollivander's Wand Shop**!
 
 In this project, you will create a website for Ollivander's shop.
