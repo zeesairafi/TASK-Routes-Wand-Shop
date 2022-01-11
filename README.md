@@ -84,6 +84,10 @@ const wands = [
 export default wands;
 ```
 
-- Start by importing `wands.js` into `App.js`.
-- Display all of the wands in the main page including their details. Every wand must be in its own `Card` component. Create a `List` component that maps through all the wand cards.
-- Make sure that you're sending your data through `props`.
+
+- Create a data file and copy and paste the array above.
+- Create a `List` component that maps through all the wands.
+- Every wand must be in its own `Card` component.
+- Make sure that you're sending your data through `props`. 
+- When clicking on a wand card it should take you to another page ( use routing) showing the details of the wand
+- use bootstrap in styling your project, you can check this documentation [here](https://react-bootstrap.github.io/getting-started/introduction)
