@@ -1,28 +1,77 @@
-# TASK-NAME
+Welcome to **Ollivander's Wand Shop**!
 
-This is the template for tasks. These repos are the starting points and instructions for students to explore a concept.
+In this project, you will create a website for Ollivander's shop.
 
-## Instructions
+- Create a new `React App`
+- Install Bootstrap
+```shell
+$ npm install bootstrap
+```
+- Import Bootstrap in your `index.js`
+```javascript
+import "bootstrap/dist/css/bootstrap.min.css";
+```
+- Create a data file called `wands.js`
+- In `wands.js` place the following data:
+```javascript
+const wands = [
+  {
+    core: "Phoenix Feather",
+    wood: "Holly",
+    length: 11,
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/c/ca/HarryPotterWandNN8415.jpg/revision/latest?cb=20141208232731"
+  },
+  {
+    core: "Unicorn Hair",
+    wood: "Willow",
+    length: 14,
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/6/62/RonWeasleyWandNN8413.jpg/revision/latest?cb=20141208232815"
+  },
+  {
+    core: "Phoenix Feather",
+    wood: "Yew",
+    length: 13.5,
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/5/5a/LordVoldemortWandNN8403.jpg/revision/latest?cb=20141208232950"
+  },
+  {
+    core: "Unicorn Hair",
+    wood: "Cypress",
+    length: 10.25,
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/7/7e/Remus_Lupin_wand.png/revision/latest/scale-to-width-down/700?cb=20161126073935"
+  },
+  {
+    core: "Dragon heartstring",
+    wood: "Vine",
+    length: 10.75,
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/c/c6/HermioneGrangerWandNN8411.jpg/revision/latest?cb=20140602200406"
+  },
+  {
+    core: "Unicorn Hair",
+    wood: "Cherry",
+    length: "Unknown length",
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/f/f0/Neville%27s_wand.jpg/revision/latest?cb=20141209002728"
+  },
+  {
+    core: "Unicorn Hair",
+    wood: "Hawthorn",
+    length: 10,
+    imageUrl:
+      "https://vignette.wikia.nocookie.net/harrypotter/images/3/39/DracoMalfoyWandNN8409.jpg/revision/latest?cb=20141208233016"
+  }
+];
 
-Add instructions here. This is github flavoured markdown so you can be as creative as you want. Add code snippets, images, gifs, checkboxes, anything you want.
+export default wands;
 
-### 1. Extract Components
+```
 
-- [ ] Look at the html in `index.html`
-- [ ] Move it into `App.js`
-- [ ] Do you see those cards? Can you turn them into a component??
+Start by importing `wands.js` into `App.js`. 
 
-It should look like this:
+Display all of the wands in the main page including their details. Every wand must be in its own `Card` component. Create a `List` component that maps through all the wand cards.
 
-![screenshot](https://tenor.com/xNjE.gif)
-
-### 2. Do the thing
-
-Explanation of the thing and why we're about to do it. Cool right?
-
-- [ ] Make a `store.js` file
-- [ ] Copy + Paste broken code:  
-  ```js
-  console.log("lol");
-  ```
-- [ ] Have an explanation ready for when Zainab interrogates you
+Make sure that you're sending your data through `props`.
