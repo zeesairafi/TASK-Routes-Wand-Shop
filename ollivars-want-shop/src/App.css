@@ -1,0 +1,108 @@
+
+.home{
+  background-color: cornsilk;
+  text-align: center;
+height: 100vh;
+}
+.home h1{
+  font: 4.5em "bold";
+  line-height: 1.2em;
+  padding: 35px;
+  color: #22201d;
+    text-align: center;
+   
+   
+    
+}
+.home img{
+  display:inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+
+.searchBar {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 40%;
+  
+  
+}
+
+.listWrapper {
+  align-items: center;
+justify-content: center;
+display: flex;
+background-color:cornsilk;
+text-align: center;
+height: 100vh;
+}
+
+.card {
+  background-color: burlywood;
+  margin: 5px;
+  
+}
+.card img{
+  width: 200px;
+  height: 200px;
+  
+}
+.card p{
+  text-align: center;
+  color: black;
+  
+}
+
+
+.about{
+  background-color: cornsilk;
+  text-align: center;
+  height: 100vh;
+  text-align: center;
+height: 150%;
+
+}
+.about h1{
+  
+  font: 4.5em "bold";
+  line-height: 1.2em;
+  padding: 35px;
+  color: #22201d;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+.about img{
+  display:inline-flex;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.about h3{
+  font: "bold";
+  line-height: 1.2em;
+  padding: 35px;
+  color: #22201d;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+nav {
+  background-color: lemonchiffon;
+  display: flex;
+  
+}
+nav div {
+  
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 30;
+}
+
+
+
